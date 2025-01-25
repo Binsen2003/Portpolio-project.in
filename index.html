@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potpolio Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="nav">
+                <div class="title">
+                    <h2>Portpolio.</h2>
+                </div>
+                <input type="checkbox" id="sidebar-active">
+                <label for="sidebar-active">
+                    <svg id="open-sidebar-btn"  xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                </label>
+                <label for="sidebar-active" id="overly"></label>
+                <ul>
+                    <label for="sidebar-active">
+                        <svg id="close-sidebar-btn" xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                    </label>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#">Portpolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="content-info">
+                <div class="content">
+                    <div class="text-box">
+                        <h3>Hello,It's Me</h3>
+                        <h1>Binsen Digal</h1>
+                        <h3>And I'm a <span>Frontend Developer</span></h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, sunt. Ratione sequi voluptatibus quos quibusdam excepturi natus nulla enim nihil  optio amet ipsam blanditiis! Reprehenderit, porro ratione? Numquam amet illo, iusto quas modi porro.</p>
+                    
+                        <div class="social-media">
+                            <div class="media-icon">
+                                <a href="#facebook"><i class='bx bxl-facebook-circle'></i></a>  
+                            </div>
+    
+                            <div class="media-icon">
+                                <a href="#twiter"><i class='bx bxl-twitter' ></i></a>
+                            </div>
+    
+                            <div class="media-icon">
+                                <a href="#instagram"><i class='bx bxl-instagram-alt' ></i></a>
+                            </div>
+    
+                            <div class="media-icon">
+                                <a href="#link"><i class='bx bxl-linkedin-square' ></i></a>
+                            </div>
+                        </div>
+                    
+                        <div class="download">
+                            <a  id="btn" href="#documents/binsen.pdf">Download CV</a>
+                        </div>
+
+                    </div>
+                    <div class="image">
+                        <img src="image/home-image.png" alt="Home image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="content">
+            <div class="about-image">
+                <img src="image/home-image.png" alt="">
+            </div>
+            <div class="about-me">
+                <h1>About Me</h1>
+                <h3>Frontend Developer !</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, nam harum amet unde autem praesentium magni at facilis officiis rerum consequatur accusamus beatae voluptatum explicabo placeat omnis veritatis quae assumenda veniam iste inventore a, animi voluptatem dolorem? Obcaecati dolores, est eaque natus corporis voluptatibus laudantium reprehenderit impedit! Quia corporis consectetur natus, magnam at enim vel eius, repellendus delectus libero sequi.</p>
+                <div class="download-about">
+                    <a  id="btn-about" href="#">Read more</a> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="service">
+        <h1>Our Services</h1>
+        <div class="container">
+            <div class="web-development">
+                <span><i class='bx bx-code-alt'></i></span>
+                <h2>Web Developement</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam, tempora corrupti rerum sint maiores expedita earum possimus, sit tenetur ipsum alias quibusdam ad itaque praesentium a reiciendis pariatur porro?</p>
+                <div class="read-more">
+                    <a  id="btn-about" href="#">Read more</a> 
+                </div>
+            </div>
+            <div class="web-development">
+                <span><i class='bx bxs-paint'></i></span>
+                <h2>Graphic Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam, tempora corrupti rerum sint maiores expedita earum possimus, sit tenetur ipsum alias quibusdam ad itaque praesentium a reiciendis pariatur porro?</p>
+                <div class="read-more">
+                    <a  id="btn-about" href="#">Read more</a> 
+                </div>
+            </div>
+            <div class="web-development">
+                <span><i class='bx bx-bar-chart-alt'></i></span>
+                <h2>Digital Marketing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam, tempora corrupti rerum sint maiores expedita earum possimus, sit tenetur ipsum alias quibusdam ad itaque praesentium a reiciendis pariatur porro?</p>
+                <div class="read-more">
+                    <a  id="btn-about" href="#">Read more</a> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact <span>Me!</span></h1>
+        <div class="contact-box">
+            <div class="fill-up-box">
+                <div class="box">
+                    <input type="text" placeholder="Full Name"> <br>
+                    <input type="number" placeholder="Mobile Number">
+                </div>
+                <div class="box">
+                    <input type="email" placeholder="Email Address"> <br>
+                    <input type="text" placeholder="Email Subject">
+                </div>
+            </div>
+            <div class="text-area">
+                <textarea placeholder="Enter Message"></textarea>
+            </div>
+            <div class="read-more">
+                <a  id="btn-about" href="#">Read more</a> 
+            </div>
+        </div>
+    </section>
+</body>
+</html>
